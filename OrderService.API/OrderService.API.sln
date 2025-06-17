@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderService.API", "OrderService.API.csproj", "{B1BE51C5-F65F-47AC-9886-12CD18084AB3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderService.API.Tests", "..\OrderService.API.Tests\OrderService.API.Tests.csproj", "{0D710864-928C-4579-BE98-9AE8F329F651}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B1BE51C5-F65F-47AC-9886-12CD18084AB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1BE51C5-F65F-47AC-9886-12CD18084AB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1BE51C5-F65F-47AC-9886-12CD18084AB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1BE51C5-F65F-47AC-9886-12CD18084AB3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D710864-928C-4579-BE98-9AE8F329F651}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D710864-928C-4579-BE98-9AE8F329F651}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D710864-928C-4579-BE98-9AE8F329F651}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D710864-928C-4579-BE98-9AE8F329F651}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

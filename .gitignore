@@ -1,0 +1,8 @@
+.idea
+bin
+obj
+appsettings.json
+appsettings.Development.json
+OrderService.API.csproj
+ProductService.API.csproj
+UserService.API.csproj
