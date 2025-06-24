@@ -9,6 +9,8 @@ public class Program
     public static void Main(string[] args)
     {
         WebApplication app = CreateApp();
+        app.MapGet("/api/hello", () => "Hello World!");
+        
         app.MapControllers();
         app.UseSwagger();
         app.UseSwaggerUI();

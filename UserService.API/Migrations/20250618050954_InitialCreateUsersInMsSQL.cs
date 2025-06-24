@@ -5,7 +5,7 @@
 namespace UserService.API.Migrations
 {
     /// <inheritdoc />
-    public partial class InitialCreateUsers : Migration
+    public partial class InitialCreateUsersInMsSQL : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)

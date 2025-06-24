@@ -11,8 +11,8 @@ using UserService.API.Infrastructure;
 namespace UserService.API.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20250617122807_InitialCreateUsers")]
-    partial class InitialCreateUsers
+    [Migration("20250618050954_InitialCreateUsersInMsSQL")]
+    partial class InitialCreateUsersInMsSQL
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
